@@ -15,8 +15,11 @@ If a duplicate word is found, we increment a word frequency counter associated w
 
 
 **Example Output**
+
 ![B+ Tree](media/example.png)
 
 Left-most node "manipulating" is the root, with left children "jsoup" and "list".
+
 The values to the left of the words are node IDs, showing what words are part of the same node.
+
 The values to the right of the words are the word frequencies.
