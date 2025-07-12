@@ -2,11 +2,11 @@ CSCD427 - Advanced Databases
 
 ### B+ Tree
 
-In this project, I implemented a **B+ Tree**, a data structure commonly used in database indexing to allow for **efficient searches**, insertions, and deletions. The B+ Tree is a type of self-balancing tree structure that maintains sorted data and provides efficient **range queries** and **lookup operations**.
+In this project, I implemented a **B+ Tree**, a data structure commonly used in database indexing to allow for efficient searches, insertions, and deletions. The B+ Tree is a type of self-balancing tree structure that maintains sorted data and provides efficient **range queries** and **lookup operations**.
 
-This project would take a website as input, as well as a .txt file of words to ignore.
-The program sorted the words in html file and sorted them into a B+ Tree that is displayed in the command line.
-If a duplicate word is found, we increment a word frequency counter associated with each word.
+This project takes a website as input, as well as a .txt file of words to ignore.
+The program parses the words in the html file and sorts them into a B+ Tree displayed in the command line.
+If a duplicate word is found, a word frequency counter is incremented which is associated with each word.
 
 ### Key Concepts:
 - **B+ Tree**: An extension of the B-Tree, the B+ Tree stores all values in the leaf nodes, which are linked for efficient range queries.
